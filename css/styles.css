@@ -40,6 +40,7 @@ body{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+
 .skill-card {
     transition: transform 0.2s ease-in-out;
 }
@@ -101,11 +102,20 @@ body{
     transform: translateY(0);
     opacity: 1;
 }
-
+.certificates{
+    
+    background-color: #082032;
+    color: #E4F1FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 
 .form{
     
-    background-color: #082032;
+    background-color: #2C394B;
     color: #E4F1FF;
     display: flex;
     justify-content: center;
