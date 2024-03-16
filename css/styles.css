@@ -1,0 +1,175 @@
+body{
+    background-color: #082032;
+    padding-top: 60px;
+    
+}
+.top-logo {
+    padding: 30px;
+}
+
+.top-links {
+    padding-right: 50px;
+}
+
+.middile-container{
+    color: aliceblue;
+    
+}
+
+.about{
+    background-color: #2C394B;
+    color: #E4F1FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.custom-shadow {
+    box-shadow: 10 10 20px rgba(115, 179, 219, 0.5); /* Change the color here */
+}
+
+.skills{
+    
+    background-color: #082032;
+    color: #E4F1FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.skill-card {
+    transition: transform 0.2s ease-in-out;
+}
+
+.skill-card:hover {
+    transform: scale(1.1); /* You can adjust the scale factor as needed */
+}
+
+
+.bg-blue{
+    background-color: #082032;
+}
+
+.bg-light-blue{
+    background-color: #E4F1FF;
+}
+
+.projects{
+    background-color: #2C394B;
+    color: #E4F1FF;
+}
+
+.project-card {
+    position: relative;
+    cursor: pointer;
+    transition: transform 0.3s, opacity 0.3s;
+}
+
+.project-card img {
+    width: 100%;
+    height: auto;
+    transition: filter 0.3s;
+    border-radius: 10px;
+}
+
+.project-details {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    padding: 10px;
+    transform: translateY(100%);
+    transition: transform 0.3s;
+    opacity: 0;
+}
+
+.project-card:hover {
+    transform: translateY(-10px);
+    opacity: 0.9;
+}
+
+.project-card:hover img {
+    filter: brightness(80%);
+}
+
+.project-card:hover .project-details {
+    transform: translateY(0);
+    opacity: 1;
+}
+.certificates{
+    
+    background-color: #082032;
+    color: #E4F1FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.form{
+    
+    background-color: #2C394B;
+    color: #E4F1FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.footer{
+    color: #E4F1FF;
+}
+
+.scroll-to-top {
+    padding-right: 20px;
+    bottom: 10px;
+    right: 50px;
+    cursor: pointer;
+    opacity: 0.7;
+    transition: opacity 0.2s ease-in-out;
+}
+
+.scroll-to-top:hover {
+    opacity: 1;
+}
+
+
+/* Initial icon color (white) */
+.social-icons .btn i {
+    color: #fff;
+}
+
+/* Instagram icon color on hover (red) */
+.social-icons .btn:hover i.fa-instagram {
+    color: #E1306C;
+}
+
+/* Twitter icon color on hover (black) */
+.social-icons .btn:hover i.fa-twitter {
+    color: #000;
+}
+
+/* LinkedIn icon color on hover (blue) */
+.social-icons .btn:hover i.fa-linkedin-in {
+    color: #0077B5;
+}
+
+/* GitHub icon color on hover (dark gray) */
+.social-icons .btn:hover i.fa-github {
+    color: #c9510c;
+}
+
+
+.mid{
+    justify-content: center;
+    align-items: center;
+    
+}
