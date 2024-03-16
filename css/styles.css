@@ -11,6 +11,12 @@ body{
     padding-right: 50px;
 }
 
+.navbar-nav.ms-auto.top-links .nav-link:last-child {
+    border: 1px dotted rgb(255, 255, 255); 
+    border-radius: 20%;
+    margin-left: 5px;
+}
+
 .middile-container{
     color: aliceblue;
     
