@@ -24,6 +24,30 @@ body{
     
 }
 
+.myresume {
+    font-size: medium;
+    background-color: #082032;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-left: 10px;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.3);
+}
+
+.myresume:hover {
+    background-color: #2C394B;
+    color: #ffffff;
+}
+
+.myresume:active {
+    background-color: #082032;
+    color: white;
+}
+
+
+
 .about{
     background-color: #2C394B;
     color: #E4F1FF;
